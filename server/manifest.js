@@ -49,7 +49,7 @@ module.exports = new Confidence.Store({
                             connection: {
                                 host     : process.env.DB_HOST || '0.0.0.0',
                                 user     : process.env.DB_USER || 'root',
-                                password : process.env.DB_PASSWORD || 'hapi',
+                                password : process.env.DB_PASSWORD || 'toto',
                                 database : process.env.DB_DATABASE || 'user'
                             },
                             // useNullAsDefault: true,     // Suggested for sqlite3
